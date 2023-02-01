@@ -1,0 +1,15 @@
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\bin\Debug\net6.0\variables.exe
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\bin\Debug\net6.0\variables.deps.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\bin\Debug\net6.0\variables.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\bin\Debug\net6.0\variables.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\bin\Debug\net6.0\variables.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\variables.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\variables.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\variables.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\variables.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\variables.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\variables.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\refint\variables.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\variables.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\variables.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\variables\variables\obj\Debug\net6.0\ref\variables.dll
