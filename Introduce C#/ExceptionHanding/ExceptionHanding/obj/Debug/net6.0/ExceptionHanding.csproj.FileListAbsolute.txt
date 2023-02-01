@@ -1,0 +1,15 @@
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\bin\Debug\net6.0\ExceptionHanding.exe
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\bin\Debug\net6.0\ExceptionHanding.deps.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\bin\Debug\net6.0\ExceptionHanding.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\bin\Debug\net6.0\ExceptionHanding.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\bin\Debug\net6.0\ExceptionHanding.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ExceptionHanding.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ExceptionHanding.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ExceptionHanding.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ExceptionHanding.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ExceptionHanding.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ExceptionHanding.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\refint\ExceptionHanding.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ExceptionHanding.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ExceptionHanding.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\ExceptionHanding\ExceptionHanding\obj\Debug\net6.0\ref\ExceptionHanding.dll
