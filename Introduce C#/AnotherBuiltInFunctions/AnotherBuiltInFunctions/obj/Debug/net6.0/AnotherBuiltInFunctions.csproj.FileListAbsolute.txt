@@ -1,0 +1,15 @@
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\bin\Debug\net6.0\AnotherBuiltInFunctions.exe
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\bin\Debug\net6.0\AnotherBuiltInFunctions.deps.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\bin\Debug\net6.0\AnotherBuiltInFunctions.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\bin\Debug\net6.0\AnotherBuiltInFunctions.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\bin\Debug\net6.0\AnotherBuiltInFunctions.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\AnotherBuiltInFunctions.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\AnotherBuiltInFunctions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\AnotherBuiltInFunctions.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\AnotherBuiltInFunctions.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\AnotherBuiltInFunctions.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\AnotherBuiltInFunctions.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\refint\AnotherBuiltInFunctions.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\AnotherBuiltInFunctions.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\AnotherBuiltInFunctions.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\AnotherBuiltInFunctions\AnotherBuiltInFunctions\obj\Debug\net6.0\ref\AnotherBuiltInFunctions.dll
