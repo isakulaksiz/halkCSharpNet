@@ -1,0 +1,15 @@
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\bin\Debug\net6.0\CollectionsAndGeneric.exe
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\bin\Debug\net6.0\CollectionsAndGeneric.deps.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\bin\Debug\net6.0\CollectionsAndGeneric.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\bin\Debug\net6.0\CollectionsAndGeneric.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\bin\Debug\net6.0\CollectionsAndGeneric.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\CollectionsAndGeneric.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\CollectionsAndGeneric.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\CollectionsAndGeneric.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\CollectionsAndGeneric.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\CollectionsAndGeneric.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\CollectionsAndGeneric.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\refint\CollectionsAndGeneric.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\CollectionsAndGeneric.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\CollectionsAndGeneric.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\CollectionsAndGeneric\CollectionsAndGeneric\obj\Debug\net6.0\ref\CollectionsAndGeneric.dll
