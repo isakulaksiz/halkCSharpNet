@@ -1,0 +1,17 @@
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\bin\Debug\net6.0-windows\usingSwitchCase.exe
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\bin\Debug\net6.0-windows\usingSwitchCase.deps.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\bin\Debug\net6.0-windows\usingSwitchCase.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\bin\Debug\net6.0-windows\usingSwitchCase.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\bin\Debug\net6.0-windows\usingSwitchCase.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.Form1.resources
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.csproj.GenerateResource.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\refint\usingSwitchCase.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\usingSwitchCase.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\usingSwitchCase\usingSwitchCase\obj\Debug\net6.0-windows\ref\usingSwitchCase.dll
