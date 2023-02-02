@@ -1,0 +1,5 @@
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\methodOverloading\methodOverloading\obj\Debug\net6.0\methodOverloading.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\methodOverloading\methodOverloading\obj\Debug\net6.0\methodOverloading.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\methodOverloading\methodOverloading\obj\Debug\net6.0\methodOverloading.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\methodOverloading\methodOverloading\obj\Debug\net6.0\methodOverloading.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\methodOverloading\methodOverloading\obj\Debug\net6.0\methodOverloading.csproj.CoreCompileInputs.cache
