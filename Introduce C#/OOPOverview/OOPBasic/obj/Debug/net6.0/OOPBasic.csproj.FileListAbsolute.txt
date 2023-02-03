@@ -1,0 +1,15 @@
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\bin\Debug\net6.0\OOPBasic.exe
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\bin\Debug\net6.0\OOPBasic.deps.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\bin\Debug\net6.0\OOPBasic.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\bin\Debug\net6.0\OOPBasic.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\bin\Debug\net6.0\OOPBasic.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\OOPBasic.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\OOPBasic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\OOPBasic.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\OOPBasic.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\OOPBasic.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\OOPBasic.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\refint\OOPBasic.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\OOPBasic.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\OOPBasic.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\Introduce C#\OOPOverview\OOPBasic\obj\Debug\net6.0\ref\OOPBasic.dll
