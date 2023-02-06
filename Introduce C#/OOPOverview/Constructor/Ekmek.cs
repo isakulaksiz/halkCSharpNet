@@ -28,6 +28,7 @@
         {
             Adet = adet;
             Tur = tur;
+            //method();
         }
 
     }
