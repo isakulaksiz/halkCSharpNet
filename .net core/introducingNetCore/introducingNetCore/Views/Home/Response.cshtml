@@ -1,4 +1,4 @@
-﻿
+﻿@model Responser
 @{
     Layout = null;
 }
@@ -11,6 +11,29 @@
     <title>Response</title>
 </head>
 <body>
-    Response....
+   <form asp-action="Response" asp-controller="Home">
+       <input asp-for="Name" placeholder="Adınız"  />
+       <span asp-validation-for="Name"></span>
+       <br />
+       <input asp-for="LastName" placeholder="Soyadınız"  />
+       <span asp-validation-for="LastName"></span>
+<br />
+       <input asp-for="Email" placeholder="E-ppsta"  />
+       <span asp-validation-for="Email"></span>
+
+<br />
+       <label>Lütfen seçiniz</label>
+       <select asp-for="IsAccepted">
+           <option value=""> Seçiniz</option>
+           <option value="True">Evet</option>
+           <option value="False">Hayır</option>
+       </select>
+       <span asp-validation-for="IsAccepted"></span>
+
+       <br>
+       <button type="submit">Gönder</button>
+
+
+   </form>
 </body>
 </html>

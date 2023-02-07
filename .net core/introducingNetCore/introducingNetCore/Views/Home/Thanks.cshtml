@@ -1,0 +1,24 @@
+﻿@model Responser
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Thanks</title>
+</head>
+<body>
+    <p>Selam @Model.Name @Model.LastName</p>
+    @if (Model.IsAccepted == true)
+    {
+        <p>Süper! Orada görüşürüz.</p>
+    }
+    else
+    {
+        <p>Üzüldük. Bir dahaki sefere</p>
+    }
+</body>
+</html>

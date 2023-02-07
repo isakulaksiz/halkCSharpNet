@@ -5,6 +5,7 @@ namespace introducingNetCore.Controllers
 {
     public class HomeController : Controller
     {
+        [HttpGet]
         public IActionResult Index()
         {
 
@@ -23,10 +24,15 @@ namespace introducingNetCore.Controllers
 
             return View(products);
         }
-
+        [HttpGet]
         public IActionResult Response()
         {
             return View();
+        }
+        [HttpPost]
+        public IActionResult Response(Responser responser)
+        {
+            return ModelState.IsValid ? View("Thanks", responser) : (IActionResult)View();
         }
     }
 }
