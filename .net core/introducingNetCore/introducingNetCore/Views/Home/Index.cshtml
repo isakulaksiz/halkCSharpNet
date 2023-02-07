@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Product>
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <h2>Hoşgeldin @ViewBag.Name</h2>
+    @if (ViewBag.Hour <12)
+    {
+        <p>Günaydın!</p>
+    }
+    else if (ViewBag.Hour <= 16)
+    {
+        <p>İyi günler</p>
+    }
+    else
+    {
+        <p>İyi Akşamlar</p>    
+    }
+
+
+    <table>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Id</td>
+                <td>@product.Name</td>
+                <td>@product.Price</td>
+            </tr>
+        }
+    </table>
+
+    <p>
+        Buluşmaya davetlisiniz! Katılmak için  <a href="/Home/Response">tıklayın</a>
+    </p>>
+
+</body>
+</html>
