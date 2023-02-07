@@ -242,3 +242,5 @@ C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\introdu
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\introducingNetCore\introducingNetCore\obj\Debug\net6.0\introducingNetCore.pdb
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\introducingNetCore\introducingNetCore\obj\Debug\net6.0\introducingNetCore.genruntimeconfig.cache
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\introducingNetCore\introducingNetCore\obj\Debug\net6.0\ref\introducingNetCore.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\introducingNetCore\introducingNetCore\bin\Debug\net6.0\libman.json
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\introducingNetCore\introducingNetCore\bin\Debug\net6.0\introducingNetCore.staticwebassets.runtime.json

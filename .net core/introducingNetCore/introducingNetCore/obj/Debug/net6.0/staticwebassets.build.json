@@ -1,11 +1,54 @@
 {
   "Version": 1,
-  "Hash": "kICdQZCKtLcYHZLlzc8bMehSEhet9RrHuAT5vKcPU+4=",
+  "Hash": "mOItWqRi1n+PBkrKUmYs4aojJJ5khvr7IyXTN3n4gBA=",
   "Source": "introducingNetCore",
   "BasePath": "_content/introducingNetCore",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "introducingNetCore\\wwwroot",
+      "Source": "introducingNetCore",
+      "ContentRoot": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\C# and .net core\\.net core\\introducingNetCore\\introducingNetCore\\wwwroot\\",
+      "BasePath": "_content/introducingNetCore",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\C# and .net core\\.net core\\introducingNetCore\\introducingNetCore\\wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css",
+      "SourceId": "introducingNetCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\C# and .net core\\.net core\\introducingNetCore\\introducingNetCore\\wwwroot\\",
+      "BasePath": "_content/introducingNetCore",
+      "RelativePath": "lib/bootstrap/css/bootstrap.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\css\\bootstrap.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\C# and .net core\\.net core\\introducingNetCore\\introducingNetCore\\wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js",
+      "SourceId": "introducingNetCore",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\C# and .net core\\.net core\\introducingNetCore\\introducingNetCore\\wwwroot\\",
+      "BasePath": "_content/introducingNetCore",
+      "RelativePath": "lib/bootstrap/js/bootstrap.bundle.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\js\\bootstrap.bundle.min.js"
+    }
+  ]
 }
