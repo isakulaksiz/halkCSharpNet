@@ -1,6 +1,6 @@
-﻿namespace eshop.Models
+﻿namespace eshop.Entities
 {
-    public class Product
+    public class Product : IEntity
     {
         public int Id { get; set; }
         public string Name { get; set; }
@@ -9,5 +9,4 @@
         public double? DiscountRate { get; set; }
         public string? ImageUrl { get; set; }
     }
-
 }
