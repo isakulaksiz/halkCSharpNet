@@ -3,7 +3,7 @@ using eshop.Entities;
 
 namespace eshop.Application.Services
 {
-    public class ProductService
+    public class ProductService : IProductService
     {
         //Presentation (MVC)'dan gelen talebi işle ve DataAccess'e ilet.
 

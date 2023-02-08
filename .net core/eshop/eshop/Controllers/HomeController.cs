@@ -8,9 +8,9 @@ namespace eshop.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-        private readonly ProductService productService;
+        private readonly IProductService productService;
 
-        public HomeController(ILogger<HomeController> logger, ProductService productService)
+        public HomeController(ILogger<HomeController> logger, IProductService productService)
         {
             _logger = logger;
             this.productService = productService;

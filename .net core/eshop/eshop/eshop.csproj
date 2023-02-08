@@ -10,4 +10,8 @@
     <ProjectReference Include="..\eshop.Application\eshop.Application.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Components\" />
+  </ItemGroup>
+
 </Project>
