@@ -32,7 +32,9 @@
     </header>
     <div class="container">
         <div class="row">        
-            <div class="col-3">BURADA MENÜ OLACAK</div>
+            <div class="col-3">
+               @await Component.InvokeAsync("Menu")
+            </div>
             <main role="main"  class="col-9">
             @RenderBody()
             </main>

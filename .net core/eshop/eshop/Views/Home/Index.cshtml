@@ -1,13 +1,30 @@
 ﻿@model IEnumerable<Product>
 @{
     ViewData["Title"] = "Home Page";
+    var itemCounter = 0;
 }
 
 <div class="row">
     @foreach (var product in Model)
     {
-            <div class="col-3">
-                <partial name="_ProductCard" model="product"></partial>
-            </div>
+        if (itemCounter != 0 && itemCounter % 4 == 0)
+        {
+            @:</div>
+            @:<div class="row">
+        }
+                        <div class="col-3">
+                            <partial name="_ProductCard" model="product"></partial>
+                        </div>
+
+        itemCounter++;
     }
 </div>
+
+<nav aria-label="Page navigation example">
+  <ul class="pagination">
+        @for (int i = 1; i <= ViewBag.TotalPages; i++)
+        {
+                            <li class="page-item"><a class="page-link" asp-action="Index" asp-route-pageNo="@i" asp-route-categoryId="@ViewBag.SelectedCategoryId">@i</a></li>
+        }    
+  </ul>
+</nav>

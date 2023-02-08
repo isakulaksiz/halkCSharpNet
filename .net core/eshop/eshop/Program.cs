@@ -7,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, FakeProductRepository>();
+builder.Services.AddScoped<ICategoryService, CategoryService>();
+builder.Services.AddScoped<ICategoryRepository, FakeCategoryRepository>();
 
 
 
@@ -27,8 +29,26 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
+
+app.UseEndpoints(endpoints =>
+{
+
+    endpoints.MapControllerRoute(
+         name: "paging",
+         pattern: "Sayfa/{pageNo}",
+         defaults: new { controller = "Home", action = "Index", pageNo = 1 }
+          );
+
+
+    endpoints.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+
+
+
+});
+
+
 
 app.Run();

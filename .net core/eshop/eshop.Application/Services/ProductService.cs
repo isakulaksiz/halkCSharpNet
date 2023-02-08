@@ -17,5 +17,10 @@ namespace eshop.Application.Services
         {
             return productRepository.GetAll();
         }
+
+        public IList<Product> GetProductsByCategoryId(int categoryId)
+        {
+            return productRepository.GetProductsByCategoryId(categoryId);
+        }
     }
 }
