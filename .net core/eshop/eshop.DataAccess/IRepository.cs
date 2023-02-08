@@ -1,12 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using eshop.Entities;
 
 namespace eshop.DataAccess
 {
-    internal interface IRepository
+    public interface IRepository<T> where T : IEntity
     {
+        IList<T> GetAll();
+        T Get(int id);
+
+        void Add(T entity);
+        void Update(T entity);
+        void Delete(int id);
+
+        //void SearchByName(string name);
     }
 }

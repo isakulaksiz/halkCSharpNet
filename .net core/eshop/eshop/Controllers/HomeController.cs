@@ -1,5 +1,5 @@
-﻿using eshop.Models;
-using eshop.Services;
+﻿using eshop.Application.Services;
+using eshop.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -8,16 +8,18 @@ namespace eshop.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+        private readonly ProductService productService;
 
-        public HomeController(ILogger<HomeController> logger)
+        public HomeController(ILogger<HomeController> logger, ProductService productService)
         {
             _logger = logger;
+            this.productService = productService;
         }
 
         public IActionResult Index()
         {
-            var productService = new FakeProductService();
-            var products = productService.GetProducts();
+
+            var products = productService.GetAllProducts();
             return View(products);
         }
 

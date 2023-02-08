@@ -1,11 +1,66 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "eshop.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "eshop.DataAccess": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eshop.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.Application.dll": {}
+        }
+      },
+      "eshop.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "eshop.Entities": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/eshop.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.DataAccess.dll": {}
+        }
+      },
+      "eshop.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/eshop.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/eshop.Entities.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "eshop.Application/1.0.0": {
+      "type": "project",
+      "path": "../eshop.Application/eshop.Application.csproj",
+      "msbuildProject": "../eshop.Application/eshop.Application.csproj"
+    },
+    "eshop.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../eshop.DataAccess/eshop.DataAccess.csproj",
+      "msbuildProject": "../eshop.DataAccess/eshop.DataAccess.csproj"
+    },
+    "eshop.Entities/1.0.0": {
+      "type": "project",
+      "path": "../eshop.Entities/eshop.Entities.csproj",
+      "msbuildProject": "../eshop.Entities/eshop.Entities.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "eshop.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\turka\\.nuget\\packages\\": {},
@@ -39,7 +94,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\C# and .net core\\.net core\\eshop\\eshop.Application\\eshop.Application.csproj": {
+              "projectPath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\Halkbank\\C# and .net core\\.net core\\eshop\\eshop.Application\\eshop.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

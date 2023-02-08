@@ -29,3 +29,10 @@ C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\e
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\obj\Debug\net6.0\eshop.pdb
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\obj\Debug\net6.0\eshop.genruntimeconfig.cache
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\obj\Debug\net6.0\ref\eshop.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\bin\Debug\net6.0\eshop.Application.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\bin\Debug\net6.0\eshop.DataAccess.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\bin\Debug\net6.0\eshop.Entities.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\bin\Debug\net6.0\eshop.Application.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\bin\Debug\net6.0\eshop.DataAccess.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\bin\Debug\net6.0\eshop.Entities.pdb
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop\obj\Debug\net6.0\eshop.csproj.CopyComplete
