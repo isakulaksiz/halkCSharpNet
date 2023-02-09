@@ -28,3 +28,29 @@
         }    
   </ul>
 </nav>
+
+@section Scripts
+{
+        <script>
+            $(document).ready(function(){
+                $('.addCard').on('click',function(){
+                   
+                    let id = $(this).data('id');
+                    console.log("butona tıklandı! " + id);
+
+                    $.ajax({
+                        url:'/ShoppingCard/AddProduct/'+id,
+                        success: function(data){
+                            console.log("Ürün sepete eklendi");
+                            console.log('sunucudan gelen', data);
+
+                        },
+                        error: function(err){
+                           console.log(err);
+
+                        }
+                    })
+                });
+            });
+        </script>
+}
