@@ -40,12 +40,18 @@ namespace eshop.DataAccess.Data
             base.OnModelCreating(modelBuilder);
         }
 
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public EshopDbContext(DbContextOptions<EshopDbContext> options) : base(options)
         {
 
-
         }
+
+
+        //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        //{
+        //    optionsBuilder.UseSqlServer("çok gizli ADRES ve ŞİFREler");
+
+
+        //}
 
     }
 }

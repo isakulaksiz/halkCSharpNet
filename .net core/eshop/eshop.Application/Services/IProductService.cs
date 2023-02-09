@@ -6,8 +6,9 @@ namespace eshop.Application.Services
     {
         IList<Product> GetAllProducts();
         IList<Product> GetProductsByCategoryId(int categoryId);
-
         Product GetProduct(int id);
+
+        int CreateProduct(Product product);
 
     }
 }

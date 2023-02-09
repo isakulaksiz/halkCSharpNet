@@ -15,6 +15,11 @@ namespace eshop.Application.Services
             this.productRepository = productRepository;
         }
 
+        public int CreateProduct(Product product)
+        {
+            productRepository.Add(product);
+            return product.Id;
+        }
 
         public IList<Product> GetAllProducts()
         {
