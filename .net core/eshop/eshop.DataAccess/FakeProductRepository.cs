@@ -42,7 +42,7 @@ namespace eshop.DataAccess
 
         public Product Get(int id)
         {
-            throw new NotImplementedException();
+            return products.FirstOrDefault(x => x.Id == id);
         }
 
         public IList<Product> GetAll()

@@ -22,6 +22,11 @@ namespace eshop.Application.Services
             return productRepository.GetAll();
         }
 
+        public Product GetProduct(int id)
+        {
+            return productRepository.Get(id);
+        }
+
         public IList<Product> GetProductsByCategoryId(int categoryId)
         {
             return productRepository.GetProductsByCategoryId(categoryId);

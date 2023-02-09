@@ -9,7 +9,7 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, FakeProductRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICategoryRepository, FakeCategoryRepository>();
-
+builder.Services.AddSession();
 
 
 var app = builder.Build();
@@ -26,8 +26,10 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseSession();
 
 app.UseAuthorization();
+
 
 
 app.UseEndpoints(endpoints =>
