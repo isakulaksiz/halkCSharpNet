@@ -3591,6 +3591,7 @@
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "6.0.13",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.13",
           "eshop.Entities": "1.0.0"
         },
         "compile": {
