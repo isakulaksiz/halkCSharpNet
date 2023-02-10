@@ -55,6 +55,11 @@ namespace eshop.DataAccess
             return products.Where(p => p.CategoryId == categoryId).ToList();
         }
 
+        public bool IsExist(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public IList<Product> SearchProductsByName(string productName)
         {
             throw new NotImplementedException();

@@ -29,6 +29,11 @@ namespace eshop.DataAccess
             };
         }
 
+        public bool IsExist(int id)
+        {
+            throw new NotImplementedException();
+        }
+
         public void Update(Category entity)
         {
             throw new NotImplementedException();

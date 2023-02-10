@@ -38,6 +38,11 @@ namespace eshop.DataAccess
             return eshopDbContext.Products.Where(p => p.CategoryId == categoryId).ToList();
         }
 
+        public bool IsExist(int id)
+        {
+            return eshopDbContext.Products.Any(p => p.Id == id);
+        }
+
         public IList<Product> SearchProductsByName(string productName)
         {
             throw new NotImplementedException();
@@ -45,7 +50,9 @@ namespace eshop.DataAccess
 
         public void Update(Product entity)
         {
-            throw new NotImplementedException();
+            eshopDbContext.Products.Update(entity);
+            //eshopDbContext.Entry<Product>(entity).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+            eshopDbContext.SaveChanges();
         }
     }
 }

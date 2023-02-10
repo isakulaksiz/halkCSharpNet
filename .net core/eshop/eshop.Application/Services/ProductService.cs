@@ -36,5 +36,16 @@ namespace eshop.Application.Services
         {
             return productRepository.GetProductsByCategoryId(categoryId);
         }
+
+        public bool IsExists(int id)
+        {
+            return productRepository.IsExist(id);
+        }
+
+        public void UpdateProduct(Product product)
+        {
+            productRepository.Update(product);
+
+        }
     }
 }

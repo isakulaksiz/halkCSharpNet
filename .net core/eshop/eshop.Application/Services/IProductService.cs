@@ -9,6 +9,7 @@ namespace eshop.Application.Services
         Product GetProduct(int id);
 
         int CreateProduct(Product product);
-
+        bool IsExists(int id);
+        void UpdateProduct(Product product);
     }
 }

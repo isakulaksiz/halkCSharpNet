@@ -1,10 +1,12 @@
 ﻿using eshop.Application.Services;
 using eshop.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 
 namespace eshop.Controllers
 {
+    [Authorize]
     public class ProductsController : Controller
     {
 
@@ -34,6 +36,8 @@ namespace eshop.Controllers
         }
 
 
+
+
         [HttpPost]
         public IActionResult Create(Product product)
         {
@@ -43,6 +47,31 @@ namespace eshop.Controllers
             }
 
             ViewBag.Categories = GetCategoriesForSelect();
+            return View();
+        }
+
+
+        public IActionResult Edit(int id)
+        {
+
+            if (productService.IsExists(id))
+            {
+                var product = productService.GetProduct(id);
+                ViewBag.Categories = GetCategoriesForSelect();
+                return View(product);
+            }
+
+            ModelState.AddModelError("notExists", "belirtilen id'de ürün yok");
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Edit(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                productService.UpdateProduct(product);
+                return RedirectToAction(nameof(Index));
+            }
             return View();
         }
 

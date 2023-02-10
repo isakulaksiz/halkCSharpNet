@@ -12,5 +12,6 @@ namespace eshop.DataAccess
         void Delete(int id);
 
         //void SearchByName(string name);
+        bool IsExist(int id);
     }
 }
