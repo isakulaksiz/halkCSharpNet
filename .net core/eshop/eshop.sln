@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eshop.Entities", "eshop.Ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eshop.DataAccess", "eshop.DataAccess\eshop.DataAccess.csproj", "{817388B6-25B0-49E9-952E-AA3105202BBD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eshop.API", "eshop.API\eshop.API.csproj", "{A6C10DE0-9025-4B91-A6A2-80F4433FE20A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{817388B6-25B0-49E9-952E-AA3105202BBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{817388B6-25B0-49E9-952E-AA3105202BBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{817388B6-25B0-49E9-952E-AA3105202BBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6C10DE0-9025-4B91-A6A2-80F4433FE20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6C10DE0-9025-4B91-A6A2-80F4433FE20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6C10DE0-9025-4B91-A6A2-80F4433FE20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6C10DE0-9025-4B91-A6A2-80F4433FE20A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

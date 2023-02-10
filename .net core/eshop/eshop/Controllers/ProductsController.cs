@@ -29,9 +29,6 @@ namespace eshop.Controllers
         {
             //List<SelectListItem> selectOptions = new List<SelectListItem>();
             ViewBag.Categories = GetCategoriesForSelect();
-
-
-
             return View();
         }
 
