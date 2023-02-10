@@ -12,6 +12,7 @@ builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
 builder.Services.AddScoped<ICategoryService, CategoryService>();
 builder.Services.AddScoped<ICategoryRepository, EFCategoryRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 builder.Services.AddSession();
 
 var connectionString = builder.Configuration.GetConnectionString("db");

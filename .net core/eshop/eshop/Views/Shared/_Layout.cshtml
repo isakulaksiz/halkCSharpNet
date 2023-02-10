@@ -25,6 +25,18 @@
                         <li class="nav-item">
                             <a class="nav-link" asp-area="" asp-controller="ShoppingCard" asp-action="Index">Sepet</a>
                         </li>
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Accounts" asp-action="Logout">Hoşgeldin @User.Identity.Name (Çıkış yap)</a>
+                            </li>
+                        }
+                        else
+                        {
+                                <li class="nav-item">
+                                    <a class="nav-link" asp-area="" asp-controller="Accounts" asp-action="Login">Giriş</a>
+                                </li>
+                        }
                     </ul>
                 </div>
             </div>
@@ -33,10 +45,10 @@
     <div class="container">
         <div class="row">        
             <div class="col-3">
-               @await Component.InvokeAsync("Menu")
+                @await Component.InvokeAsync("Menu")
             </div>
             <main role="main"  class="col-9">
-            @RenderBody()
+                @RenderBody()
             </main>
         </div>
     </div>
