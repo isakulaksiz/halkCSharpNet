@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/turka/source/repos/Kurumsal/Halkbank/C\# and .net core/.net core/eshop/eshop/Views/Accounts/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudHNcTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/turka/source/repos/Kurumsal/Halkbank/C\# and .net core/.net core/eshop/eshop/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
