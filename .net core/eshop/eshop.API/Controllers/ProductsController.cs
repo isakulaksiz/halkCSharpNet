@@ -1,4 +1,5 @@
 ﻿using eshop.Application.Services;
+using eshop.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace eshop.API.Controllers
@@ -20,5 +21,41 @@ namespace eshop.API.Controllers
             var products = productService.GetAllProducts();
             return Ok(products);
         }
+
+        [HttpGet("{name}")]
+        public IActionResult SearchProducts(string name)
+        {
+            IList<Product> products = productService.SearchProductByName(name);
+            return Ok(products);
+        }
+
+        [HttpGet("{categoryId:int}")]
+
+        public IActionResult GetProductsByCategoryId(int categoryId)
+        {
+            var products = productService.GetProductsByCategoryId(categoryId);
+            return Ok(products);
+        }
+
+        [HttpGet("[action]/{id:int}")]
+        public IActionResult GetProduct(int id)
+        {
+            var product = productService.GetProduct(id);
+            return Ok(product);
+        }
+
+        [HttpPost]
+        public IActionResult AddProduct(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                var createdProductId = productService.CreateProduct(product);
+                return CreatedAtAction(nameof(GetProduct), routeValues: new { id = createdProductId }, null);
+            }
+
+            return BadRequest(ModelState);
+        }
+
+
     }
 }

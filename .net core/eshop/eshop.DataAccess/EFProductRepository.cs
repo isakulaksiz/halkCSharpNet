@@ -45,7 +45,7 @@ namespace eshop.DataAccess
 
         public IList<Product> SearchProductsByName(string productName)
         {
-            throw new NotImplementedException();
+            return eshopDbContext.Products.Where(p => p.Name.ToLower().Contains(productName.ToLower())).ToList();
         }
 
         public void Update(Product entity)

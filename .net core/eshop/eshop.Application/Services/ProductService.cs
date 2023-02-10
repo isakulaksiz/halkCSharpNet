@@ -42,6 +42,11 @@ namespace eshop.Application.Services
             return productRepository.IsExist(id);
         }
 
+        public IList<Product> SearchProductByName(string name)
+        {
+            return productRepository.SearchProductsByName(name);
+        }
+
         public void UpdateProduct(Product product)
         {
             productRepository.Update(product);
