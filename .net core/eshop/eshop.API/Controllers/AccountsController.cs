@@ -1,7 +1,9 @@
 ﻿using eshop.Application.Services;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.IdentityModel.Tokens;
 using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
+using System.Text;
 
 namespace eshop.API.Controllers
 {
@@ -30,10 +32,29 @@ namespace eshop.API.Controllers
 
                 };
 
+                var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("BU CUMLE COK GIZLI"));
+                var credential = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
+                var token = new JwtSecurityToken(
+                     issuer: "identity.halkbak.com",
+                     audience: "hr.halkbank",
+                     claims: claims,
+                     notBefore: DateTime.Now,
+                     expires: DateTime.Now.AddHours(6),
+                     signingCredentials: credential);
+
+
+                return Ok(new { token = new JwtSecurityTokenHandler().WriteToken(token) });
 
             }
-            return Ok();
+
+            return BadRequest(new { message = "Kullanıcı adı ya da şifre yanlış! " });
+
+
+
 
         }
+
+
     }
 }
+

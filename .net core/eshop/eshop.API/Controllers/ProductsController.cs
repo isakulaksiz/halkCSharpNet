@@ -1,6 +1,7 @@
 ﻿using eshop.API.Fiters;
 using eshop.Application.Services;
 using eshop.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace eshop.API.Controllers
@@ -46,6 +47,7 @@ namespace eshop.API.Controllers
         }
 
         [HttpPost]
+        [Authorize]
         public IActionResult AddProduct(Product product)
         {
             if (ModelState.IsValid)
@@ -59,6 +61,8 @@ namespace eshop.API.Controllers
 
         [HttpPut("{id:int}")]
         [ItemExists]
+        [Authorize]
+
         //Not: [FromRoute] ve [FromBody] attribute'leri zorunlu değildir! 
         public IActionResult UpdateProduct([FromRoute] int id, [FromBody] Product product)
         {
@@ -78,6 +82,7 @@ namespace eshop.API.Controllers
 
         [HttpDelete("{id:int}")]
         [ItemExists]
+        [Authorize]
         //[RangeExceptionFilter]
         public IActionResult DeleteProduct(int id)
         {

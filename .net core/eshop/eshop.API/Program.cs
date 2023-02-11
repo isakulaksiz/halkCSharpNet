@@ -1,7 +1,10 @@
 using eshop.Application.Services;
 using eshop.DataAccess;
 using eshop.DataAccess.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -13,9 +16,12 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IProductService, ProductService>();
 builder.Services.AddScoped<IProductRepository, EFProductRepository>();
+builder.Services.AddScoped<IUserService, UserService>();
 
 var connectionString = builder.Configuration.GetConnectionString("db");
 builder.Services.AddDbContext<EshopDbContext>(option => option.UseSqlServer(connectionString));
+
+
 
 builder.Services.AddCors(option => option.AddPolicy("allow", builder =>
 {
@@ -34,6 +40,22 @@ builder.Services.AddCors(option => option.AddPolicy("allow", builder =>
     builder.AllowAnyHeader();
 }));
 
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+                .AddJwtBearer(opt =>
+                {
+                    opt.TokenValidationParameters = new TokenValidationParameters
+                    {
+                        IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("BU CUMLE COK GIZLI")),
+                        ValidIssuer = "identity.halkbak.com",
+                        ValidAudience = "hr.halkbank",
+                        ValidateIssuer = false,
+                        ValidateAudience = false
+                    };
+                });
+
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -46,6 +68,8 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseCors("allow");
 
+
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllers();

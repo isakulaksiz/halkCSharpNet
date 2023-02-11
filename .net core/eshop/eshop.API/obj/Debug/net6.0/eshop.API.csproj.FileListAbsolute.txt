@@ -69,3 +69,4 @@ C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\e
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop.API\obj\Debug\net6.0\eshop.API.pdb
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop.API\obj\Debug\net6.0\eshop.API.genruntimeconfig.cache
 C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop.API\obj\Debug\net6.0\ref\eshop.API.dll
+C:\Users\turka\source\repos\Kurumsal\Halkbank\C# and .net core\.net core\eshop\eshop.API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
