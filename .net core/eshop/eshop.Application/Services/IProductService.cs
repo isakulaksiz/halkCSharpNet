@@ -12,5 +12,6 @@ namespace eshop.Application.Services
         bool IsExists(int id);
         void UpdateProduct(Product product);
         IList<Product> SearchProductByName(string name);
+        void DeleteProduct(int id);
     }
 }

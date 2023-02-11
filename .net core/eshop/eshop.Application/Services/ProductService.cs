@@ -21,6 +21,12 @@ namespace eshop.Application.Services
             return product.Id;
         }
 
+        public void DeleteProduct(int id)
+        {
+            productRepository.Delete(id);
+
+        }
+
         public IList<Product> GetAllProducts()
         {
 

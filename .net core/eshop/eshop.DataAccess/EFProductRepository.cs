@@ -20,7 +20,9 @@ namespace eshop.DataAccess
 
         public void Delete(int id)
         {
-            throw new NotImplementedException();
+            var product = eshopDbContext.Products.FirstOrDefault(x => x.Id == id);
+            eshopDbContext.Products.Remove(product);
+            eshopDbContext.SaveChanges();
         }
 
         public Product Get(int id)
