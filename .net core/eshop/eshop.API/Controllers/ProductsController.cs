@@ -41,7 +41,13 @@ namespace eshop.API.Controllers
         public IActionResult GetProduct(int id)
         {
             var product = productService.GetProduct(id);
-            return Ok(product);
+            if (product != null)
+            {
+                return Ok(product);
+            }
+
+            return NotFound();
+
         }
 
         [HttpPost]
@@ -55,6 +61,15 @@ namespace eshop.API.Controllers
 
             return BadRequest(ModelState);
         }
+
+        [HttpPut("id:int")]
+        //Not: [FromRoute] ve [FromBody] attribute'leri zorunlu değildir! 
+        public IActionResult UpdateProduct([FromRoute] int id, [FromBody] Product product)
+        {
+
+            return Ok();
+        }
+
 
 
     }
