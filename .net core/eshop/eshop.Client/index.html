@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <ul id="products"></ul>
     <button id="btn">Ürünleri Getir</button>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script>
@@ -16,9 +17,15 @@
                     url:'https://localhost:7182/api/Products',
                     success:function(data){
                         console.log(data);
+                         $.each(data,function (index,element) {
+                            let li = document.createElement('li');
+                            li.innerText = element.name;
+                            $('#products').append(li);
+                         });
                     },
                     error:function(err){
                         console.log('hata oluştu',err);
+                       
                     }
 
                 })
