@@ -1,4 +1,5 @@
-﻿using eshop.Application.Services;
+﻿using eshop.API.Fiters;
+using eshop.Application.Services;
 using eshop.Entities;
 using Microsoft.AspNetCore.Mvc;
 
@@ -57,33 +58,36 @@ namespace eshop.API.Controllers
         }
 
         [HttpPut("{id:int}")]
+        [ItemExists]
         //Not: [FromRoute] ve [FromBody] attribute'leri zorunlu değildir! 
         public IActionResult UpdateProduct([FromRoute] int id, [FromBody] Product product)
         {
-            if (productService.IsExists(id))
+            //if (productService.IsExists(id))
+            //{
+            if (ModelState.IsValid)
             {
-                if (ModelState.IsValid)
-                {
-                    productService.UpdateProduct(product);
-                    return Ok(product);
-                }
-
-                return BadRequest(ModelState);
+                productService.UpdateProduct(product);
+                return Ok(product);
             }
 
-            return NotFound();
+            return BadRequest(ModelState);
+            //}
+
+            //return NotFound();
         }
 
         [HttpDelete("{id:int}")]
+        [ItemExists]
+        //[RangeExceptionFilter]
         public IActionResult DeleteProduct(int id)
         {
-            if (productService.IsExists(id))
-            {
-                productService.DeleteProduct(id);
-                return Ok(new { message = $"{id} id'li ürün silindi" });
-            }
+            //  if (productService.IsExists(id))
+            // {
+            productService.DeleteProduct(id);
+            return Ok(new { message = $"{id} id'li ürün silindi" });
+            //}
 
-            return NotFound();
+            // return NotFound();
         }
 
 
